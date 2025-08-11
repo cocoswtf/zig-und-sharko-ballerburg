@@ -1,0 +1,51 @@
+key,text
+__SomeExampleKey,"Dies ist {numBeispiel, number} Beispiel Text."
+__loading,"Einen Moment Geduld, das Spiel lädt..."
+__play,Spielen
+__selectioninstruction,Wähle eine Figur
+__round,"Runde {roundCount, number}"
+__wind,Wind
+__points,Punkte
+__settings,Optionen
+__soundon,Sound an
+__soundoff,Sound aus
+__soundRadio,Radio an
+__characterselection,Characterwahl
+__tutorial,Tutorial
+__back,Zurück
+__hit,Ganz nah dran!
+__bigHit,Treffer!
+__miss,Daneben
+__inwater,Verfehlt...
+__win,Du hast gewonnen!
+__lose,Leider verloren!
+__opponent_disconnect,Dein Gegner hat aufgegeben.
+__totalpoints,Gesammelte Punkte
+__rounds,Runden
+__again,Nochmal
+__chooseweapon,Wähle dein Geschoss!
+__spinthewheel,Drehe das Rad!
+__countdown3,3
+__countdown2,2
+__countdown1,1
+__countdowngo,Los!
+__waiting,Suche nach Gegner
+__lobbytitle,Lobby
+__versus,gegen
+__name,Dein Name
+__nametitle,Wähle einen Namen
+__confirm,OK
+__inputerror01,"Dein Name ist zu kurz, probiere einen anderen."
+__inputerror02,Benutz einen anderen Namen.
+__tutorialtitle,Tutorial
+__mpupdate,Spiele gegen andere TOGGO-Kids
+__ownweapon,Deine Waffe
+__enemyweapon,Gegner Waffe
+__waiting02,Warte auf Gegner
+__waitZig,Warte auf Zig
+__waitSharko,Warte auf Sharko
+__positionIndicator,Das bist du!
+__error_badName,Diesen Namen kannst du nicht nehmen.
+__error_nameTaken,Diesen Namen gibt es schon.
+__error_lostConnection,Verbindung verloren.
+__error_couldNotConnect,Konnte nicht verbunden werden.

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Zig&Sharko Ballerburg Multiplayer</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,width=device-width">
+	<style>
+		* {
+			border: 0;
+			margin: 0;
+			padding: 0;
+			outline: 0;
+		}
+
+		canvas {
+			/*transition: width 0.3s, height 0.3s;*/
+		}
+
+		#container-2d, #container-3d {
+			position: absolute;
+			top: 0;
+			left: 0;
+
+			height: 100vh;
+			width: 100vw;
+		}
+
+		#container-3d canvas {
+			background: #000;
+		}
+
+		body {
+			background: #000;
+			height: 100vh;
+			width: 100vw;
+		}
+
+		body.loading {
+			background: linear-gradient(45deg, #000000, #33b3f2);
+			background-size: 400% 400%;
+			-webkit-animation: loadingAnim 7s ease infinite;
+			-moz-animation: loadingAnim 7s ease infinite;
+			animation: loadingAnim 7s ease infinite;
+		}
+
+		@-webkit-keyframes loadingAnim {
+			0%{background-position:0 100%}
+			50%{background-position:100% 0}
+			100%{background-position:0 100%}
+		}
+		@-moz-keyframes loadingAnim {
+			0%{background-position:0 100%}
+			50%{background-position:100% 0}
+			100%{background-position:0 100%}
+		}
+		@keyframes loadingAnim {
+			0%{background-position:0 100%}
+			50%{background-position:100% 0}
+			100%{background-position:0 100%}
+		}
+
+		html {
+			font-display: block;
+		}
+	</style>
+</head>
+<body class="loading">
+	<div id="container-3d"></div>
+	<div id="container-2d"></div>
+<script type="text/javascript" src="phaser~main_19597fb8fc9d4138cab5.js"></script><script type="text/javascript" src="three~main_8a65a22c187431a26235.js"></script><script type="text/javascript" src="vendors~main_1d492ff222b60e59176b.js"></script><script type="text/javascript" src="main_9af06730c3a2462436ff.js"></script></body>
+</html>
