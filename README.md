@@ -3,3 +3,8 @@
 Flying Sheep Studios
 
 ## Run Webserver to play
+
+## Status
+
+Im currently working on making the main.js more readable and addingg comments.
+I already found cool mechanics that would be invisible for the normal player.
